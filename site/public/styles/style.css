@@ -1,0 +1,62 @@
+@font-face {
+	font-family: "proxima-nova";
+	src: url("assets/fonts/proxima-nova.otf");
+}
+
+body > header > .content {
+	padding: 20px 10px;
+	overflow: hidden;
+}
+a {
+	color: inherit; 
+} 
+.content {
+	max-width:960px;
+	margin: 0px auto;
+	position: relative;
+}
+h1,h2, #logo-text {
+	font-family: 'proxima-nova', 'Proxima Nova', sans-serif;	
+}
+
+h1, h2, div {
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo {
+	float:left;
+	height: 42px;
+	padding-right:10px;
+}
+
+.title{
+	font-size:20px;
+}
+.motto {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.mainNav {
+	float: right;
+	margin-left: 10px;
+	font-family: 'proxima-nova', 'Proxima Nova', sans-serif;	
+}
+.mainNav ul {
+	list-style-type: none;
+	text-align: center;
+
+}
+
+.mainNav ul li { 
+	display: inline; 
+	padding: 10px
+}
+.brand {
+	float: left;
+}
+
+* {
+	line-height: 1;
+}
